@@ -231,5 +231,8 @@ def run(dataset_dir):
 
 if __name__ == '__main__':
     print('start')
-    dataset_dir = sys.argv[1]
+    dataset_dir = 'data'
+    if len(sys.argv) > 1:
+        dataset_dir = sys.argv[1]
+        
     run(dataset_dir)
