@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Copyright 2016 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-"""Contains utilities for downloading and converting datasets."""
+"""Contains utilities for downloading and converting datasets.
+
+from https://github.com/tensorflow/models/blob/master/slim/datasets/dataset_utils.py
+"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function

@@ -23,6 +23,7 @@ protocol buffers, each of which contain a single image and label.
 
 The script should take about a minute to run.
 
+from https://github.com/tensorflow/models/blob/master/slim/datasets/download_and_convert_mnist.py
 """
 from __future__ import absolute_import
 from __future__ import division
